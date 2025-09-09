@@ -8,7 +8,7 @@ PINO_LED_INTRUSO = 26
 
 trig = Pin(PINO_TRIG,Pin.OUT)
 echo = Pin(PINO_ECHO, Pin.IN)
-led_intruder = Pin(PINO_LED_INTRUSO, Pin.OUT)
+led_intruso = Pin(PINO_LED_INTRUSO, Pin.OUT)
 
 def obter_distancia():
     trig.value(0)
@@ -30,12 +30,12 @@ while True:
     
     if dist <= 10:
            print("INTRUSO DETECTADO!")
-           led_intruder.value(1)
+           led_intruso.value(1)
            time.sleep(1)
            
     else:
            print("Ambiente seguro")
-           led_intruder.value(0)
+           led_intruso.value(0)
            
     time.sleep(3)
     
