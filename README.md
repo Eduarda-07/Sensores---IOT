@@ -1,5 +1,4 @@
 # ATIVIDADES E SITUAÇÃO DE APRENDIZAGEM - IOT
-
 ## Sobre
 #### Motivação: A atividade foi desenvolvida com o propósito de colocar em prática os conceitos aprendidos nas aulas de IOT, no curso técnico de Desenvolvimento de Sistemas no SENAI JANDIRA. Utilizamos como simulador das atividades o Wokwi, montando o circuito, codificando e realizando testes. Após a simulação fizemos a montagem física utilizando componentes como ESP32, Protoboard, Junpers entre outros.
 ---
@@ -8,6 +7,7 @@
 
 #### Simulação Wokwi
 <img width="1919" height="818" alt="Captura de tela 2025-09-09 154921" src="https://github.com/user-attachments/assets/87569a26-6549-4363-aef6-f27b1b349f4f" />
+
 #### Montagem Física
 ![sensor-lum-img](https://github.com/user-attachments/assets/b4fefbbb-3215-48d8-8d85-c2a207cd366b)
 
@@ -75,8 +75,10 @@ TECNOLOGIAS:
 ## Situação de Aprendizagem - Contador de Produtos
 
 ### Simulação no Wokwi
+<img width="1919" height="908" alt="sensor-prox-cont" src="https://github.com/user-attachments/assets/7339df07-00b1-45eb-bced-74e4c6c158d8" />
 
 ### Montagem Física
+![sensor-prox-contador-img](https://github.com/user-attachments/assets/e27d20f8-622b-4673-bbff-bf7bcfaed1cc)
 
 TECNOLOGIAS:
 - ESP32
@@ -92,3 +94,15 @@ TECNOLOGIAS:
 
 #### Montamos o circuito físico e simulador utilizando os componentes acima; Para a programação foi utilizado o MicroPython, testado inicialmente no Wokwi e como próximo passo, transferimos a programação para o software Thonny, para podermos fazer a comunicação entre o ESP32 com o código. Além disso, conseguimos simular os produtos passando na frente do sensor para verificar se a contagem dos produtos e das caixas estava corrreta.
 
+---
+
+## Conclusão
+
+#### Com esse trabalho conseguimos compreender melhor como funciona a Internet das Coisas na pratica! Conseguimos visualizar como os circuitos eletrônicos são feitos, e entramos em contato diretamente com os componentes que aprendemos nas aulas teóricas. Além disso, aprendemos a ter responsabilidade com os componentes eletrônicos, e  ter gestão de temo para realizar as tarefas que nos foram proporcionadas. 
+
+---
+
+## Autores
+
+#### [LinkedIn Giovanna Coelho](https://www.linkedin.com/in/giovannacoelhogiliodesa/)
+#### [LinkedIn Eduarda De Jesus](www.linkedin.com/in/eduarda-silva-4aa274331)
