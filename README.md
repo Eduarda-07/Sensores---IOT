@@ -7,9 +7,23 @@
 ## Sensor de Luminosidade
 
 #### Simulação Wokwi
-
+<img width="1919" height="818" alt="Captura de tela 2025-09-09 154921" src="https://github.com/user-attachments/assets/87569a26-6549-4363-aef6-f27b1b349f4f" />
 #### Montagem Física
 ![sensor-lum-img](https://github.com/user-attachments/assets/b4fefbbb-3215-48d8-8d85-c2a207cd366b)
+
+TECNOLOGIAS:
+- ESP32
+- LDR
+- Led
+- Jumpers
+- Protoboard
+- Resistores
+- MicroPython
+- Wokwi (Simulação Web)
+- Cabo USB
+- Thonny (Software para conexão entre o ESP32 e a programação)
+
+#### Montamos o circuito físico e simulador utilizando os componentes acima; Para a programação foi utilizado o MicroPython, testado inicialmente no Wokwi e como próximo passo, transferimos a programação para o software Thonny, para podermos fazer a comunicação entre o ESP32 com o código.
 ---
 
 ## Sensor de Proximidade
@@ -32,7 +46,7 @@ TECNOLOGIAS:
 - Cabo USB
 - Thonny (Software para conexão entre o ESP32 e a programação)
 
-Montamos o circuito físico e simulador utilizando os componentes acima, e a programação para o funcionamento foi utilizado o MicroPython, testado inicialmente no Wokwi e como próximo passo transferimos a programação para o software Thonny, para podermos fazer a comunicação entre o ESP32 com o código.
+#### Montamos o circuito físico e simulador utilizando os componentes acima; Para a programação foi utilizado o MicroPython, testado inicialmente no Wokwi e como próximo passo, transferimos a programação para o software Thonny, para podermos fazer a comunicação entre o ESP32 com o código.
 ---
 
 ## Sensor de Umidade
@@ -55,7 +69,26 @@ TECNOLOGIAS:
 - Cabo USB
 - Thonny (Software para conexão entre o ESP32 e a programação)
 
-Montamos o circuito físico e simulador utilizando os componentes acima, e a programação para o funcionamento foi utilizado o MicroPython, testado inicialmente no Wokwi e como próximo passo transferimos a programação para o software Thonny, para podermos fazer a comunicação entre o ESP32 com o código.
+#### Montamos o circuito físico e simulador utilizando os componentes acima; Para a programação foi utilizado o MicroPython, testado inicialmente no Wokwi e como próximo passo, transferimos a programação para o software Thonny, para podermos fazer a comunicação entre o ESP32 com o código. Além disso, utilizamos terra de planta molhada para testar se os componetes e o código realmente estvavam funcionando.
 ---
+
 ## Situação de Aprendizagem - Contador de Produtos
+
+### Simulação no Wokwi
+
+### Montagem Física
+
+TECNOLOGIAS:
+- ESP32
+- HC-SR04
+- Led
+- Jumpers
+- Protoboard
+- Resistores
+- MicroPython
+- Wokwi (Simulação Web)
+- Cabo USB
+- Thonny (Software para conexão entre o ESP32 e a programação)
+
+#### Montamos o circuito físico e simulador utilizando os componentes acima; Para a programação foi utilizado o MicroPython, testado inicialmente no Wokwi e como próximo passo, transferimos a programação para o software Thonny, para podermos fazer a comunicação entre o ESP32 com o código. Além disso, conseguimos simular os produtos passando na frente do sensor para verificar se a contagem dos produtos e das caixas estava corrreta.
 
