@@ -1,0 +1,48 @@
+from machine import Pin, time_pulse_us
+import time
+
+PINO_TRIG = 25
+PINO_ECHO = 27
+PINO_LED_PRODUTO = 26
+contador_protudo = 0
+numero_caixa = 1
+
+trig = Pin(PINO_TRIG,Pin.OUT)
+echo = Pin(PINO_ECHO, Pin.IN)
+led_produto = Pin(PINO_LED_PRODUTO, Pin.OUT)
+
+def obter_distancia():
+    trig.value(0)
+    time.sleep_us(2)
+    
+    
+    trig.value(1)
+    time.sleep_us(10)
+    trig.value(0)
+    
+    duracao = time_pulse_us(echo, 1, 20000)
+    distancia = (duracao / 2) * 0.0343
+    
+    return distancia
+
+while True:
+    dist = obter_distancia()
+    print ("Distância:", dist, "cm")
+    
+    if dist <= 4:
+        contador_protudo += 1
+        print("PRODUTO", contador_protudo, "DETECTADO!!")
+
+        if (contador_protudo == 10):
+           print("CAIXA", numero_caixa, "COMPLETA!")
+           numero_caixa += 1
+           contador_protudo = 0
+           
+        led_produto.value(1)
+        time.sleep(0.5)
+           
+    else:
+        print("NENHUM PRODUTO FOI DETECTADO, DISTÂNCIA =", dist, "cm E PRODUTOS =", contador_protudo, "!!!")
+        led_produto.value(0)
+           
+    time.sleep(1)
