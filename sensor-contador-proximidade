@@ -39,10 +39,10 @@ while True:
            contador_protudo = 0
            
         led_produto.value(1)
-        time.sleep(0.5)
+        time.sleep(2)
            
     else:
         print("NENHUM PRODUTO FOI DETECTADO, DISTÂNCIA =", dist, "cm E PRODUTOS =", contador_protudo, "!!!")
         led_produto.value(0)
            
-    time.sleep(1)
+    time.sleep(4)
